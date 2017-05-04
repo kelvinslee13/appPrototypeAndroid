@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NameForm</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter">Enter</string>
+    <string name="remember">Rememberr</string>
+</resources>

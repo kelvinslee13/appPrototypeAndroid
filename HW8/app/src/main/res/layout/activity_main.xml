@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creditcard"
+        android:background="@color/colorPrimary">
+    </TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/creditCardCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/visa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/visa">
+        </RadioButton>
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mastercard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mastercard">
+        </RadioButton>
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/amex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AmEx">
+        </RadioButton>
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/Discover">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="3"
+            android:hint = "@string/cardNumber">
+        </EditText>
+
+        <EditText
+            android:id="@+id/CVC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:hint = "@string/CVC">
+        </EditText>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expires">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/monthArray"
+            android:prompt="@string/monthPrompt"
+            android:layout_weight="0.5">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:entries="@array/yearArray"
+            android:prompt="@string/yearPrompt"
+            android:layout_weight="0.5">
+        </Spinner>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/billing"
+
+        android:background="@color/colorPrimary">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:hint = "@string/Name">
+            </EditText>
+
+            <EditText
+                android:id="@+id/Street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="3"
+                android:hint = "@string/Street">
+            </EditText>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/City"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:hint = "@string/city">
+                </EditText>
+                <EditText
+                    android:id="@+id/State"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:inputType="textCapCharacters"
+                    android:hint = "@string/state">
+                </EditText>
+                <EditText
+                    android:id="@+id/Zip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_weight="2"
+                    android:hint = "@string/zip">
+                </EditText>
+
+            </RadioGroup>
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shipping"
+
+        android:background="@color/colorPrimary">
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy">
+
+    </CheckBox>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint = "@string/Name">
+        </EditText>
+
+        <EditText
+            android:id="@+id/Street2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint = "@string/Street">
+        </EditText>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/City2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:hint = "@string/city">
+            </EditText>
+            <EditText
+                android:id="@+id/State2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType="textCapCharacters"
+                android:layout_weight="2"
+                android:hint = "@string/state">
+            </EditText>
+            <EditText
+                android:id="@+id/Zip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="2"
+                android:hint = "@string/zip">
+            </EditText>
+
+        </RadioGroup>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/enter">
+        </Button>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="refreshB">Refresh</string>
+    <string name="postB">Post</string>
+    <string name="error">Failed Loading</string>
+    <string name="loading">Loading...</string>
+    <string name="setup">Setup</string>
+    <string name="punchLine">Punch Line</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

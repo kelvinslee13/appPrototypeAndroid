@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HW8</string>
+    <string name="creditcard">CREDIT CARD</string>
+    <string name="visa">VISA</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="AmEx">AmEx</string>
+    <string name="Discover">Discover</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="CVC">CVC</string>
+    <string name="billing">BILLING</string>
+    <string name="Name">Name</string>
+    <string name="Street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="enter">Enter</string>
+    <string name="message"></string>
+    <string name="shipping">Shipping</string>
+    <string name="copy">Copy billing address</string>
+    <string name="expires">Expires:</string>
+    <string name="monthPrompt">Month</string>
+    <string name="yearPrompt">Year</string>
+
+
+    <string-array name="monthArray">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="yearArray">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+</resources>

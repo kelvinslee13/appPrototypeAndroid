@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Factors</string>
+    <string name="number">Number</string>
+    <string name="factor">Factor</string>
+    <string name="error">Cannot factor that!</string>
+</resources>
