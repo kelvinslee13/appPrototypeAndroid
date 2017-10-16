@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">맛있는 식탁</string>
+    <string name="title_activity_navi_main">NaviMain</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="appName">맛있는 식탁</string>
+    <string name="total">합계</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_list">Menu List</string>
+    <string name="salmon">Salmon</string>
+    <string name="recipe">Recipe</string>
+</resources>
