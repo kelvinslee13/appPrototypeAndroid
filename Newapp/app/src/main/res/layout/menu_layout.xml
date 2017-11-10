@@ -7,8 +7,9 @@
 
     <ImageView
         android:id="@+id/menu_cover"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:src="@drawable/salmon"
         android:contentDescription="@string/app_name"/>
@@ -18,7 +19,7 @@
         android:layout_height="wrap_content"
 
 
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorGray"
         android:orientation="vertical">
 
         <TextView
@@ -26,16 +27,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/salmon"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorWhite"/>
 
         <TextView
             android:id="@+id/menu_recipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recipe"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorWhite"/>
 
     </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
 
 
 

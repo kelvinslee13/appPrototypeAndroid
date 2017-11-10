@@ -1,5 +1,6 @@
 package com.example.seunghyunlee.newapp;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +26,8 @@ public class NaviMain extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navi_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitleTextColor(Color.BLACK);
+        toolbar.setBackgroundColor(Color.WHITE);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -36,6 +39,7 @@ public class NaviMain extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         displaySelectedScreen(R.id.home);
+
     }
 
     @Override

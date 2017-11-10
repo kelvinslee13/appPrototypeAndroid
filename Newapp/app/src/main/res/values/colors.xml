@@ -7,4 +7,6 @@
     <color name="colorLighter">#FFF4D1</color>
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#c2bcbc</color>
+    <color name="lightGray">#f7f5f5</color>
 </resources>

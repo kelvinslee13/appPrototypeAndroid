@@ -5,12 +5,13 @@
     android:orientation="vertical"
 
     tools:context="com.example.seunghyunlee.newapp.fragments.SingleMenu">
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_list"
 
         android:textColor="@color/colorWhite"/>
+        -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/your_menu_list"
         android:layout_width="match_parent"

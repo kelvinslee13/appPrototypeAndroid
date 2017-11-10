@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     tools:context="com.example.seunghyunlee.newapp.LoginFragment">
 
     <LinearLayout
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
+
             android:hint="ID"/>
 
         <!--  Password Label -->
@@ -34,20 +36,29 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
+
             android:hint="Password"
             />
 
 
         <Button
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/lightGray"
             android:text="LOGIN"/>
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
 
-        <TextView android:id="@+id/signup"
+
+        <Button
+            android:id="@+id/signup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
+            android:background="@color/lightGray"
             android:text="Sign Up"
             android:gravity="center"
             android:textSize="16dip"/>

@@ -14,4 +14,5 @@
     <string name="menu_list">Menu List</string>
     <string name="salmon">Salmon</string>
     <string name="recipe">Recipe</string>
+    <string name="read"><u>내용보기</u></string>
 </resources>

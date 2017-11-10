@@ -33,7 +33,7 @@ public class SingleMenu extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_single_menu,container,false);
         RecyclerView menuRecyclerView = (RecyclerView) view.findViewById(R.id.your_menu_list);
-        GridLayoutManager gridLayout = new GridLayoutManager(getActivity(),2);
+        GridLayoutManager gridLayout = new GridLayoutManager(getActivity(),1);
         menuRecyclerView.setLayoutManager(gridLayout);
         menuRecyclerView.setHasFixedSize(true);
 
